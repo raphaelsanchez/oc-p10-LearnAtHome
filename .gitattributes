@@ -1,0 +1,16 @@
+# Set the default behavior for text files
+* text=auto
+
+# Specify specific file types
+*.txt text
+*.md text
+*.html text
+*.css text
+*.js text
+
+# Ignore specific files
+ignore-me.txt -text
+
+# Set specific line endings
+*.sh eol=lf
+*.bat eol=crlf
